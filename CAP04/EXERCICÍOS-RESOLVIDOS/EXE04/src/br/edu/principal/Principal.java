@@ -26,7 +26,5 @@ public class Principal {
 	                System.out.println("A ordem crescente é: " + num3 + " - " + num2 + " - " + num1);
 	            }
 	        }
-	        
-	
-	}
+	    }
 }
