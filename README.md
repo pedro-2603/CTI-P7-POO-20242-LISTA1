@@ -23,12 +23,14 @@ A disciplina de Programação Orientada a Objetos (POO) é fundamental para a fo
 - **Interfaces e Classes Abstratas**: Definindo contratos e implementações.
 - **Exceções e Tratamento de Erros**: Lidando com falhas no código de maneira robusta.
 
-- **TUTORIAL DE COMO USAR OS CÓDIGOS.**
+ 
+ 
+ **TUTORIAL DE COMO USAR OS CÓDIGOS.**
 
 1. Clonar o Repositório
 Abra o terminal e clone o repositório no seu computador usando o comando abaixo:
 
-git clone https://github.com/juliamacedo63/CTI-P7-POO-20242-LISTA01.git
+git clone 
 
 Isso criará uma cópia local do repositório.
 
