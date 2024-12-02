@@ -1,50 +1,39 @@
 package br.edu.principal;
-
 import java.util.Scanner;
 
 public class Principal {
-
     public static void main(String[] args) {
-        // Criando o objeto Scanner para capturar as entradas do usuário
         Scanner scanner = new Scanner(System.in);
 
-        // Declaração das variáveis
-        float n1, n2, n3, media, exame;
+        System.out.print("Digite o primeiro número (positivo): ");
+        int num1 = scanner.nextInt();
 
-        // Exibe a introdução
-        System.out.println("Nota final\n");
+        System.out.print("Digite o segundo número (positivo): ");
+        int num2 = scanner.nextInt();
 
-        // Entrada das notas
-        System.out.print("Digite a primeira nota: ");
-        n1 = scanner.nextFloat();
+        if (num1 >= 0 && num2 >= 0) {
+            int soma = somar(num1, num2);
+            System.out.println("Soma dos números inteiros entre " + num1 + " e " + num2 + ": " + soma);
+        } else {
+            System.out.println("Por favor, insira números positivos.");
+        }
+    }
 
-        System.out.print("Digite a segunda nota: ");
-        n2 = scanner.nextFloat();
+    public static int somar(int num1, int num2) {
+        int soma = 0;
 
-        System.out.print("Digite a terceira nota: ");
-        n3 = scanner.nextFloat();
-
-        // Exibe o quadro de classificações
-        System.out.println("\nMédia Aritmética");
-        System.out.println("    >= 0 e < 3 - Reprovado");
-        System.out.println("    >= 3 e < 7 - Exame");
-        System.out.println("    >= 7 e <= 10 - Aprovado\n");
-
-        // Calcula a média
-        media = (n1 + n2 + n3) / 3;
-
-        // Início das condições
-        if (media >= 0 && media < 3) {
-            System.out.printf("Sua média é %.2f, portanto está reprovado\n", media);
-        } else if (media >= 3 && media < 7) {
-            exame = 6 - media;
-            System.out.printf("Sua média é %.2f, portanto está em exame\n", media);
-            System.out.printf("Falta %.2f pontos para você ser aprovado.\n\n", exame);
-        } else if (media >= 7 && media <= 10) {
-            System.out.printf("Sua média é %.2f, portanto está aprovado\n", media);
+        if (num1 > num2) {
+            int temp = num1;
+            num1 = num2;
+            num2 = temp;
         }
 
-        // Fechando o scanner após o uso
-        scanner.close();
+        for (int i = num1 + 1; i < num2; i++) {
+            soma += i;
+        }
+
+        return soma;
     }
 }
+
+
