@@ -28,52 +28,52 @@ A disciplina de Programação Orientada a Objetos (POO) é fundamental para a fo
  **TUTORIAL DE COMO USAR OS CÓDIGOS.**
 
 1. Clonar o Repositório
-Abra o terminal e clone o repositório no seu computador usando o comando abaixo:
+   Abra o terminal e clone o repositório no seu computador usando o comando abaixo:
 
-git clone https://github.com/pedro-2603/CTI-P7-POO-20242-LISTA1-E-LISTA2-E-LISTA3/blob/main/README.md
+    git clone https://github.com/pedro-2603/CTI-P7-POO-20242-LISTA1-E-LISTA2-E-LISTA3/blob/main/README.md
 
-Isso criará uma cópia local do repositório.
+    Isso criará uma cópia local do repositório.
 
 2. Acessar a Pasta do Repositório
-Entre na pasta do repositório recém-clonado: cd CTI-P7-POO-20242-LISTA01
+    Entre na pasta do repositório recém-clonado: cd CTI-P7-POO-20242-LISTA01
 
 3. Navegar para o Exercício Desejado
-Os exercícios estão organizados em subpastas dentro de CAP03/. Para acessar, por exemplo, o exercício 1:
+   Os exercícios estão organizados em subpastas dentro de CAP03/. Para acessar, por exemplo, o exercício 1:
 
-cd CAP03/EXE01
+   cd CAP03/EXE01
 
 4. Compilar o Código Java
-Verifique se o arquivo .java está presente (ex.: Main.java). Compile o arquivo usando o javac:
+   Verifique se o arquivo .java está presente (ex.: Main.java). Compile o arquivo usando o javac:
 
-javac Main.java
+   javac Main.java
 
-Isso gerará um arquivo .class (o bytecode compilado).
+   Isso gerará um arquivo .class (o bytecode compilado).
 
 5. Executar o Programa
-Execute o programa compilado com o comando:
+   Execute o programa compilado com o comando:
 
-java Main
+   java Main
 
-Se o arquivo principal tiver outro nome, substitua Main pelo nome correto.
+   Se o arquivo principal tiver outro nome, substitua Main pelo nome correto.
 
 6. Repetir para Outros Exercícios
-Para compilar e executar outros exercícios:
+   Para compilar e executar outros exercícios:
 
-Volte à pasta principal do capítulo:
-cd ..
+   Volte à pasta principal do capítulo:
+   cd ..
 
-Entre na pasta do próximo exercício, por exemplo:
-cd EXE02
+   Entre na pasta do próximo exercício, por exemplo:
+   cd EXE02
 
-Siga novamente os passos de compilação e execução.
+   Siga novamente os passos de compilação e execução.
 
 7. Resolver Problemas Comuns
-Erro "javac: command not found":
+   Erro "javac: command not found":
 
-Certifique-se de que o Java Development Kit (JDK) está instalado e configurado corretamente. Verifique a instalação com:
+   Certifique-se de que o Java Development Kit (JDK) está instalado e configurado corretamente. Verifique a instalação com:
 
-javac -version
+   javac -version
 
-Caso não esteja instalado, baixe o JDK em oracle.com/java/technologies/javase-downloads.html ou instale via gerenciador de pacotes do sistema.
+   Caso não esteja instalado, baixe o JDK em oracle.com/java/technologies/javase-downloads.html ou instale via gerenciador de pacotes do sistema.
 
-Erro de Caminho ou Classe: Confirme que você está no diretório correto e que o nome do arquivo Java está correto
+   Erro de Caminho ou Classe: Confirme que você está no diretório correto e que o nome do arquivo Java está correto
