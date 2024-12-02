@@ -1,5 +1,5 @@
-# CTI-P7-POO-20242-LISTA1, LISTA2
-Lista de exercícios do CAP03, CAP04, CAP05
+# CTI-P7-POO-20242-LISTA1, LISTA2, LISTA3
+Lista de exercícios do CAP03, CAP04, CAP05, CAP06, CAP08.
 
 # Programação Orientada a Objetos (POO) -
 
