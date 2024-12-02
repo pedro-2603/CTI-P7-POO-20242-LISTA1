@@ -30,7 +30,7 @@ A disciplina de Programação Orientada a Objetos (POO) é fundamental para a fo
 1. Clonar o Repositório
 Abra o terminal e clone o repositório no seu computador usando o comando abaixo:
 
-git clone 
+git clone https://github.com/pedro-2603/CTI-P7-POO-20242-LISTA1-E-LISTA2-E-LISTA3/blob/main/README.md
 
 Isso criará uma cópia local do repositório.
 
